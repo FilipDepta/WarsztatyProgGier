@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TILESET tilesize="64" borderIndex="1">
+  <TILE index="0" type="block" blocking="true" destructable="false"   />
+  <TILE index="1" type="block" blocking="false" destructable="false"  />
+  <TILE index="2" type="block" blocking="true" destructable="true"   />
+  
+  <TILE index="3" type="player" blocking="false" destructable="false"   />
+  
+  <TILE index="4" type="bot" blocking="false" destructable="false"   />
+  <TILE index="5" type="bot" blocking="false" destructable="false"   />
+  <TILE index="6" type="bot" blocking="false" destructable="false"   />
+</TILESET>
