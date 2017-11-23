@@ -47,8 +47,8 @@ public class NewBehaviourScript : MonoBehaviour {
 	IEnumerator NiszczenieGracza()
 	{
 		Instantiate(Eksplozja, transform.position, Quaternion.identity);
-		globals.zycia--;
-		globals.przeciwnicy--;
+		//globals.zycia--;
+		//globals.przeciwnicy--;
 		transform.position = new Vector3(-5.5f, transform.position.y, transform.position.z);
 		yield return new WaitForSeconds(0.5f);
 
